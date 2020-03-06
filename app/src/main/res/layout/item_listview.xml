@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_first_level"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:visibility="gone">
+
+        <CheckBox
+            android:id="@+id/rb_fl_choose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp" />
+
+        <Button
+            android:id="@+id/btn_pull"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="#F000" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_second_level"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:visibility="gone">
+
+        <CheckBox
+            android:id="@+id/rb_sl_choose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="15dp"
+            android:background="#F000"/>
+    </RelativeLayout>
+</LinearLayout>
